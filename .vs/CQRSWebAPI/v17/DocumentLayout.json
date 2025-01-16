@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22DCF08B-367C-434F-BFF4-C7A6EBEC3C0F}|CQRSWebAPI.csproj|c:\\users\\balag\\source\\repos\\cqrswebapi\\handler\\createitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22DCF08B-367C-434F-BFF4-C7A6EBEC3C0F}|CQRSWebAPI.csproj|solutionrelative:handler\\createitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DCF08B-367C-434F-BFF4-C7A6EBEC3C0F}|CQRSWebAPI.csproj|c:\\users\\balag\\source\\repos\\cqrswebapi\\handler\\getitemqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22DCF08B-367C-434F-BFF4-C7A6EBEC3C0F}|CQRSWebAPI.csproj|solutionrelative:handler\\getitemqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetItemQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\Handler\\GetItemQueryHandler.cs",
+              "RelativeDocumentMoniker": "Handler\\GetItemQueryHandler.cs",
+              "ToolTip": "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\Handler\\GetItemQueryHandler.cs",
+              "RelativeToolTip": "Handler\\GetItemQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:48:09.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateItemCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\Handler\\CreateItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "Handler\\CreateItemCommandHandler.cs",
+              "ToolTip": "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\Handler\\CreateItemCommandHandler.cs",
+              "RelativeToolTip": "Handler\\CreateItemCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:47:57.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
