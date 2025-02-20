@@ -3,6 +3,7 @@ using CQRSWebAPI.Data;
 using CQRSWebAPI.Repositories;
 using MediatR;
 using System.Reflection;
+using CQRSMongoDB.Repositories;
 
 namespace CQRSWebAPI
 {
@@ -17,7 +18,8 @@ namespace CQRSWebAPI
             builder.Services.AddControllers();
             builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
             builder.Services.AddSingleton<IItemRepository, ItemRepository>();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddSingleton<ISubjectRepository, SubjectsRepository>(); 
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 

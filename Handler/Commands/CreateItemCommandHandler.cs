@@ -2,7 +2,7 @@
 using CQRSWebAPI.Repositories;
 using MediatR;
 
-namespace CQRSWebAPI.Handler
+namespace CQRSWebAPI.Handler.Commands
 {
     public class CreateItemCommandHandler : IRequestHandler<CreateItemCommand, int>
     {

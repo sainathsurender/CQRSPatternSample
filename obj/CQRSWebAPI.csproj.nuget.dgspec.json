@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\CQRSWebAPI.csproj": {}
+    "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSPatternSample\\CQRSWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\CQRSWebAPI.csproj": {
+    "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSMongoDB\\CQRSMongoDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\CQRSWebAPI.csproj",
-        "projectName": "CQRSWebAPI",
-        "projectPath": "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\CQRSWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSMongoDB\\CQRSMongoDB.csproj",
+        "projectName": "CQRSMongoDB",
+        "projectPath": "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSMongoDB\\CQRSMongoDB.csproj",
         "packagesPath": "C:\\Users\\balag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\balag\\source\\repos\\CQRSWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSMongoDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,6 +32,81 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSPatternSample\\CQRSWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSPatternSample\\CQRSWebAPI.csproj",
+        "projectName": "CQRSWebAPI",
+        "projectPath": "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSPatternSample\\CQRSWebAPI.csproj",
+        "packagesPath": "C:\\Users\\balag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSPatternSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\balag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSMongoDB\\CQRSMongoDB.csproj": {
+                "projectPath": "C:\\Users\\balag\\source\\repos\\CQRSApplication\\CQRSMongoDB\\CQRSMongoDB.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -78,7 +153,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

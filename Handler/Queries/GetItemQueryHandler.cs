@@ -3,7 +3,7 @@ using CQRSWebAPI.Models;
 using CQRSWebAPI.Repositories;
 using MediatR;
 
-namespace CQRSWebAPI.Handler
+namespace CQRSWebAPI.Handler.Queries
 {
     public class GetItemQueryHandler : IRequestHandler<GetItemQuery, ItemDto>
     {
